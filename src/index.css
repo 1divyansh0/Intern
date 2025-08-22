@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .card {
+    @apply bg-white shadow-soft p-6;
+  }
+  .btn-primary {
+    @apply w-full bg-primary text-white font-semibold py-2.5 rounded-xl hover:opacity-90 transition;
+  }
+  .field-label {
+    @apply text-xs font-medium text-gray-700;
+  }
+  .field-input {
+    @apply w-full border-b-2 border-gray-200 focus:border-primary outline-none py-2 bg-transparent;
+  }
+  .error-text {
+    @apply text-xs text-red-600 mt-1;
+  }
+  .link {
+    @apply text-primary underline underline-offset-2 hover:opacity-90;
+  }
+}
