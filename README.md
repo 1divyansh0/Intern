@@ -8,6 +8,8 @@ A Simple React - Auth App
 - Node.js (v14 or higher recommended)
 - npm or yarn
 
+- #live link - https://intern-theta-ten.vercel.app/
+
 ## Installation
 
 1. Clone the repository:
